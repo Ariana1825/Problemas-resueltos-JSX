@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat+Brush&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fredericka+the+Great&family=Fuzzy+Bubbles:wght@400;700&family=IM+Fell+English+SC&family=Indie+Flower&family=Jockey+One&family=Love+Ya+Like+A+Sister&family=Nothing+You+Could+Do&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Rozha+One&family=Rubik+Doodle+Shadow&family=Rubik+Vinyl&family=Silkscreen:wght@400;700&family=Syncopate:wght@400;700&family=Unica+One&family=Waiting+for+the+Sunrise&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: "Silkscreen", sans-serif;
+}
+.container-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#formulario{
+    position: absolute;
+    background-color: aliceblue;  
+    top: 32.5vh;
+    left: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 30%;
+    height: 35vh;
+    padding: 2vh;
+    border-radius: 20px;
+    border: 5px rgb(32, 83, 212);
+    border-style:dashed;
+    justify-content: space-around;
+}
+.formulario{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+}
+.entero{
+    width: 100%;
+    text-align: center;
+}
+.decimal{
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    margin: auto;
+}
+
+.titulo{
+    width: 100%;
+    height: 12%;
+    font-weight:600;
+    text-align: center;
+    
+}
+#num{
+    font-weight:600;
+    width: 50%;
+    height: 15%;
+}
+.container-button{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boton-1{
+    width:40%;
+    height: 60%;
+    border: none;
+    margin: auto;
+    background-color: rgb(32, 83, 212);
+    color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+#respuesta{
+    position: absolute;
+    background-color: aliceblue;  
+    top: 32.5vh;
+    left: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 30%;
+    height: 35vh;
+    padding: 2vh;
+    border-radius: 20px;
+    border: 5pxrgb(32, 83, 212);
+    border-style:dashed;
+    justify-content: space-around;
+}
+#respuesta h2{
+    width: 100%;
+    height: 15%;
+    font-weight:600;
+    text-align: center;
+    font-size: 3rem;
+
+}
+.rpta{
+    text-align: center;
+}
+
+.boton-2{
+    width:40%;
+    height: 20%;
+    border: none;
+    margin: auto;
+    background-color:rgb(32, 83, 212);
+    color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.h2{
+    margin: auto;
+    text-align: center;
+}
