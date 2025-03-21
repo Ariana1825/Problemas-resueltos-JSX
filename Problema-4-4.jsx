@@ -1,48 +1,34 @@
 import { useState } from "react";
-import Divisores from "./Divisores";
 import "./style.css";
+import Factorizar from "./Factorizar";
 
 export default function ObtenerValores() {
-  const [A, setA] = useState("");
-  const [B, setB] = useState("");
+  const [num, setNum] = useState("");
   const [mostrar, setMostrar] = useState(false);
 
   const Enviar = (e) => {
     e.preventDefault();
-    if (!A || !B) {
+    if (!num) {
       alert("Debe llenar todas las casillas.");
     } else{
         setMostrar(true);
     }
   };
 
-  const CambiarA = (e) => {
-    setA(e.target.value);
+  const Cambiar = (e) => {
+    setNum(e.target.value);
   };
-  const CambiarB = (e) => {
-    setB(e.target.value);
-  };
-
 
   return (
     <div className="container-main">
       {!mostrar && (
         <form onSubmit={Enviar} id="formulario">
           <div className="mini">
-            <h2 className="h2">Coloca el dividendo</h2>
+            <h2 className="h2">Coloque un número positivo</h2>
             <input
-              onChange={CambiarA}
+              onChange={Cambiar}
               className="form-control"
-              value={A}
-            />
-          </div>
-
-          <div className="mini">
-            <h2 className="h2">Coloca el divisor</h2>
-            <input
-              onChange={CambiarB}
-              className="form-control"
-              value={B}
+              value={num}
             />
           </div>
 
@@ -56,7 +42,7 @@ export default function ObtenerValores() {
         </form>
       )}
 
-      {mostrar && <Divisores A={A} B={B}/>}
+      {mostrar && <Factorizar num={num}/>}
     </div>
   );
 }
