@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat+Brush&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fredericka+the+Great&family=Fuzzy+Bubbles:wght@400;700&family=IM+Fell+English+SC&family=Indie+Flower&family=Jockey+One&family=Love+Ya+Like+A+Sister&family=Nothing+You+Could+Do&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Rozha+One&family=Rubik+Doodle+Shadow&family=Rubik+Vinyl&family=Silkscreen:wght@400;700&family=Syncopate:wght@400;700&family=Unica+One&family=Waiting+for+the+Sunrise&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Caveat Brush", cursive;
+
+}
+html{
+    font-size: 18px;
+
+}
+.container-main{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./Imagenes/backgrr.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#formulario{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 22%;
+    height: 30vh;
+    padding: 2vh;
+    background-color:linear-gradiente(135deg, rgba(255,255,255,0.1), rgba(255, 255,255,0));
+    border:1px solid rgba(255,255,255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0px 8px 32px 0px rgba(0,0, 0, 0.37);
+}
+.respuesta{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 22%;
+    height: 30vh;
+    padding: 2vh;
+    background-color:linear-gradiente(135deg, rgba(255,255,255,0.1), rgba(255, 255,255,0));
+    border:1px solid rgba(255,255,255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0px 8px 32px 0px rgba(0,0, 0, 0.37);
+}
+.mini{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40%;
+
+}
+.mini-2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    width: 100%;
+    text-align: center;
+}
+.h2{
+    width: 100%;
+    text-align: center;
+    
+}
+.h2-2{
+    width: 100%;
+    text-align: center;
+    
+}
+
+#num.form-control{
+    padding: 2vh;
+    width: 70%;
+    height: 20%;
+    font-size: 1.3rem;
+    margin: 1vh auto;
+}
+.container-button{
+    display: flex;
+    width: 100%;
+}
+.btn-1{
+    border-radius: 20px;
+    border: none;
+    margin: auto;
+    width: 40%;
+    font-size: 2rem;
+
+}
